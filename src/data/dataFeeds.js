@@ -1,0 +1,38 @@
+export const dataFeeds = [
+  {
+    id: 1,
+    name: 'Bertie Yates',
+    profilePicture: 'B',
+    backgroundColor: 'blue',
+    date: '21.9.2023',
+    text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam quis nulla. Nullam sit amet magna in magna gravida vehicula. Pellentesque sapien. Nulla est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam egestas wisi a erat. Integer pellentesque quam vel velit. Vivamus luctus egestas leo. Aliquam ornare wisi eu metus. In enim a arcu imperdiet malesuada. Aenean fermentum risus id tortor. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam',
+    image: './images/feed1.png',
+  },
+  {
+    id: 2,
+    name: 'Hester Hogan',
+    profilePicture: 'H',
+    backgroundColor: 'red',
+    date: '20.9.2023',
+    text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam quis nulla. Nullam sit amet magna in magna gravida vehicula. Pellentesque sapien. Nulla est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam egestas wisi a erat. Integer pellentesque quam vel velit. Vivamus luctus egestas leo. Aliquam ornare wisi eu metus. In enim a arcu imperdiet malesuada. Aenean fermentum risus id tortor. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam',
+    image: './images/feed2.jpg',
+  },
+  {
+    id: 3,
+    name: 'Larry Little',
+    profilePicture: 'L',
+    backgroundColor: 'pink',
+    date: '18.9.2023',
+    text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam quis nulla. Nullam sit amet magna in magna gravida vehicula. Pellentesque sapien. Nulla est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam egestas wisi a erat. Integer pellentesque quam vel velit. Vivamus luctus egestas leo. Aliquam ornare wisi eu metus. In enim a arcu imperdiet malesuada. Aenean fermentum risus id tortor. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam',
+    image: './images/feed3.jpg',
+  },
+  {
+    id: 4,
+    name: 'Sean Walsh',
+    profilePicture: 'S',
+    backgroundColor: 'green',
+    date: '15.9.2023',
+    text: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam quis nulla. Nullam sit amet magna in magna gravida vehicula. Pellentesque sapien. Nulla est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Etiam egestas wisi a erat. Integer pellentesque quam vel velit. Vivamus luctus egestas leo. Aliquam ornare wisi eu metus. In enim a arcu imperdiet malesuada. Aenean fermentum risus id tortor. Etiam dui sem, fermentum vitae, sagittis id, malesuada in, quam',
+    image: './images/feed4.jpg',
+  },
+]
