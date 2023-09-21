@@ -40,13 +40,8 @@ const Rightbar = () => {
         >
           {friends.map((one) => {
             return (
-              <Tooltip title={one.name}>
-                <Avatar
-                  key={one.id}
-                  style={cursorStyles}
-                  alt={one.name}
-                  src={one.image}
-                />
+              <Tooltip title={one.name} key={one.id}>
+                <Avatar style={cursorStyles} alt={one.name} src={one.image} />
               </Tooltip>
             )
           })}
@@ -84,7 +79,7 @@ const Rightbar = () => {
         >
           {chats.map((one) => {
             return (
-              <ListItem alignItems="flex-start">
+              <ListItem alignItems="flex-start" key={one.maxWidth}>
                 <ListItemAvatar>
                   <Tooltip title={one.name}>
                     <Avatar
